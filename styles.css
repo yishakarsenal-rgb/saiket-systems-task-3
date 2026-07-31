@@ -1,10 +1,10 @@
 /* RESET & CSS VARIABLES */
 :root {
-  --bg-dark: #000205;
-  --bg-card: #01040a;
+  --bg-dark: black;
+  --bg-card: black;
   --bg-input: #334155;
   --text-light: #f8fafc;
-  --text-muted: #94a3b8;
+  --text-muted: white;
   --accent: #10b981;
   --accent-hover: #059669;
   --border: rgba(255, 255, 255, 0.1);
