@@ -1,13 +1,13 @@
 /* RESET & CSS VARIABLES */
 :root {
-  --bg-dark: black;
-  --bg-card: black;
-  --bg-input: #334155;
-  --text-light: #f8fafc;
-  --text-muted: white;
+  --bg-dark: #000000;
+  --bg-card: #0a0a0a;
+  --bg-input: #121212;
+  --text-light: #ffffff;
+  --text-muted: #a1a1aa;
   --accent: #10b981;
   --accent-hover: #059669;
-  --border: rgba(255, 255, 255, 0.1);
+  --border: #222222;
   --nav-height: 70px;
 }
 
@@ -30,6 +30,7 @@ html {
 
 body {
   line-height: 1.6;
+  background-color: var(--bg-dark);
 }
 
 .container {
@@ -45,8 +46,8 @@ body {
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(15, 23, 42, 0.9);
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   z-index: 1000;
 }
@@ -138,8 +139,9 @@ body {
     left: -100%;
     width: 100%;
     height: calc(100vh - var(--nav-height));
-    background-color: var(--bg-dark);
+    background-color: #000000;
     transition: left 0.3s ease;
+    border-right: 1px solid var(--border);
   }
 
   .nav-menu ul {
@@ -177,7 +179,7 @@ body {
 }
 
 .alt-bg {
-  background-color: var(--bg-card);
+  background-color: #050505;
 }
 
 .section-title {
@@ -284,21 +286,13 @@ body {
 
 .feature-card,
 .service-card {
-  background-color: var(--bg-dark);
+  background-color: var(--bg-card);
   padding: 30px;
   border-radius: 12px;
   border: 1px solid var(--border);
   transition:
     transform 0.3s ease,
     border-color 0.3s ease;
-}
-
-.alt-bg .feature-card {
-  background-color: var(--bg-dark);
-}
-
-.service-card {
-  background-color: var(--bg-card);
 }
 
 .feature-card:hover,
@@ -329,7 +323,7 @@ body {
 .contact-form {
   max-width: 550px;
   margin: 0 auto;
-  background-color: var(--bg-dark);
+  background-color: var(--bg-card);
   padding: 32px;
   border-radius: 12px;
   border: 1px solid var(--border);
@@ -367,7 +361,7 @@ body {
 
 /* FOOTER */
 .footer {
-  background-color: #050600;
+  background-color: #030303;
   padding: 30px 0;
   border-top: 1px solid var(--border);
 }
