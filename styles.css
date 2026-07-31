@@ -1,7 +1,7 @@
 /* RESET & CSS VARIABLES */
 :root {
-  --bg-dark: #0f172a;
-  --bg-card: #1e293b;
+  --bg-dark: #000205;
+  --bg-card: #01040a;
   --bg-input: #334155;
   --text-light: #f8fafc;
   --text-muted: #94a3b8;
