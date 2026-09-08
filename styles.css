@@ -270,7 +270,6 @@ body {
   width: 100%;
 }
 
-/* GRIDS & CARDS */
 .grid {
   display: grid;
   gap: 24px;
