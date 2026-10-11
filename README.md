@@ -12,6 +12,6 @@ Features
 
 Tech Stack
 
-- HTML5:Semantic markup & anchor linking
+- HTML5
 - CSS3
 - Deployment:Vercel
