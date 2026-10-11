@@ -13,5 +13,5 @@ Features
 Tech Stack
 
 - HTML5:Semantic markup & anchor linking
-- CSS3:Flexbox, CSS Grid, Media Queries, CSS Variables, & Checkbox Hack logic
+- CSS3
 - Deployment:Vercel
